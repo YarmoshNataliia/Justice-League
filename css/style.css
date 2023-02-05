@@ -1,0 +1,33 @@
+h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.conteiner {
+    width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
