@@ -99,5 +99,69 @@ body {
   padding-bottom: 40px;
 }
 
-.menu-item {
+.watch-button {
+  margin: 40px;
+min-width: 141px;
+padding: 30px 15px;
+background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+border-radius: 100px;
+
+font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+
+  color: #FFFFFF;
+
+  -webkit-animation: scale-down-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+    animation: scale-down-center 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+.more-button {
+  margin: 40px;
+    min-width: 141px;
+    padding: 30px 15px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border-radius: 100px;
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+  
+  
+    color: #FFFFFF;
+
+    animation: bounce 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
 }
